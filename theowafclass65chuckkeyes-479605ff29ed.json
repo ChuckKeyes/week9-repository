@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "theowafclass65chuckkeyes",
+  "private_key_id": "479605ff29edd69629415a8afac0600aca29e702",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCa6v/SnJX8SgyF\n/+WnFcqkHLG5Qe4eI9MjyvnXAUlGpWklYGlvHwn+yt9/z+e7CE62CEbBtmRUChpw\nu4ghLyB+HZ/0k/NrC/lszrwiSjsi44fjbNrVhimS7ybd903O2sezpMsZRietIUgl\nygPAL5wmF1n905y+GMGhoGz84X9RGxjuLvRMEhuDrqKrprAQnAa6mrdUdu2A4Zdj\nTnEAPgdQvLNu2K21J3jjW7nBZuWcsv/XT+oj2inLMuvVDnZG/qA5ObS2oNxsDFkl\nlL6ozu2k3q//lLVcnGcvNsZ+lwkU5Fd7acLR1vEaIR+KGzEnkfTOSuLZE5a/Il2S\neRGaYAa7AgMBAAECggEAAr0NuaTf9949O28rGZmGhAEn2R0Dvw+mD1dqtDTHHVMW\nOT1rj7XOQO1IJyO/Nmyuq4QY8BqvylaFYiHGhcOmAOS4K6Qj5OwIxDYhWD/UrMi1\n4bzOX4DoIjtNBhZ1jycJ6bCLkI5PbD2O33AjQdX1nizCf/yqJCge4CMMWioITKA1\ndZWbm/yREDIR9jz4onlJe3NyVP7/47B4leBY4W6GjKOLbWQ3vhSjYvUfRbFrJY7r\n9JTa4QxytUBvyDO8ItAVi3qRT0WqsSo2Rl2I2pO6NwdGjv+CQ61PgqIc+ZZvIf+t\n+zvzXKDE5KChxnuoboTeEcNSC8/t/fI5HsmQO8E9VQKBgQDJSFHGCUnz39agILVM\naiRiW55tOlJFdhvkZB+uVVLUMff+c9OeXmj+Q7ORlCwyUDHCaHsneHyNXe0IbWbu\nASn7eBpTRW43ODJjUWoL7oj932nLtgTca6lLjzGL8HrZmbBMGQFPu8ZtA+0cha24\nARYruWFDHpQGBc9E51URed01JwKBgQDFCBKdK24Yqo3WgCFCL0S3ixX4duEseZ9M\nm8I0aIlPz4cmk3Xy4Ki4XXkJ1VlzjXTcwWhFLToWeLtUSuyDLgbyac/8mjGoqjR2\nh6QTYTPAiVp3STctpOrj86HgWk+8CVT5ZNqP5/ZTYm8k6V91y+2RekEP2B1GSFvP\nabD6a/rmTQKBgGxNdGqJTvhgxXwNfV+rcP5Xa8w76E6luWZPlVhZYqL4bAbGzePV\nysqdJP686nb7/Xose6+GPgZWtpalPw/rImrDee66Wg5uN3aHNPdMlvt6/dL1knID\nn+kfGDrC32c8MccQYUtErwSzax7AsvNh6ksGiVXzGxSOhbL+giBQIP1bAoGAanjl\nTieE9DFeOna9Aj323VR8x+q93cHPcp+M/7Mp2IYl25O+HkSHCDIC0WyITSg46X5e\ncVtyU2hkmrVuP6kkueSyLyfIBAQOG6tK3+ocBER1LZbUCYdgI1SpukozYkKMt8Rn\nU3KfKwo7U3AFVOuhcoblF8HKeAtsCZZsu7aUO9UCgYBNUa7B4QAadI9cO4cbF8ic\nG3o9yCyejEi7cfq39sEgrNsEqSKfWzIut2Jt+bqh8qHNPRDRgiyz35maPFiofO++\nfmmKJfX/MAX913FDf6Bu50O2Ohhon2OPl6XEafvqmYgir8PmD8rZB/bry+oiJiAT\nWXuSpErzq3K6mCQO4WB8Kw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "week9-keyes@theowafclass65chuckkeyes.iam.gserviceaccount.com",
+  "client_id": "110771331939354321240",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/week9-keyes%40theowafclass65chuckkeyes.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
