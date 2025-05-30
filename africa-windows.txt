@@ -1,0 +1,136 @@
+{
+  "canIpForward": false,
+  "confidentialInstanceConfig": {
+    "enableConfidentialCompute": false
+  },
+  "cpuPlatform": "Intel Broadwell",
+  "creationTimestamp": "2025-05-30T07:57:30.572-07:00",
+  "deletionProtection": false,
+  "description": "",
+  "disks": [
+    {
+      "architecture": "X86_64",
+      "guestOsFeatures": [
+        {
+          "type": "MULTI_IP_SUBNET"
+        },
+        {
+          "type": "UEFI_COMPATIBLE"
+        },
+        {
+          "type": "VIRTIO_SCSI_MULTIQUEUE"
+        },
+        {
+          "type": "GVNIC"
+        },
+        {
+          "type": "WINDOWS"
+        }
+      ],
+      "type": "PERSISTENT",
+      "licenses": [
+        "projects/windows-cloud/global/licenses/windows-server-2022-dc",
+        "projects/windows-cloud/global/licenses/windows-server-core"
+      ],
+      "deviceName": "new-africa-windows",
+      "autoDelete": true,
+      "source": "projects/theowafclass65chuckkeyes/zones/africa-south1-a/disks/new-africa-windows",
+      "index": 0,
+      "boot": true,
+      "kind": "compute#attachedDisk",
+      "mode": "READ_WRITE",
+      "interface": "SCSI",
+      "diskSizeGb": "40"
+    }
+  ],
+  "displayDevice": {
+    "enableDisplay": false
+  },
+  "fingerprint": "0_CYc4y3Vrc=",
+  "id": "2518202812619585974",
+  "keyRevocationActionType": "NONE",
+  "kind": "compute#instance",
+  "labelFingerprint": "42WmSpB8rSM=",
+  "lastStartTimestamp": "2025-05-30T07:58:35.120-07:00",
+  "machineType": "projects/theowafclass65chuckkeyes/zones/africa-south1-a/machineTypes/e2-medium",
+  "metadata": {
+    "fingerprint": "6cgyYgZmwBQ=",
+    "kind": "compute#metadata"
+  },
+  "name": "new-africa-windows",
+  "networkInterfaces": [
+    {
+      "stackType": "IPV4_ONLY",
+      "name": "nic0",
+      "network": "projects/theowafclass65chuckkeyes/global/networks/main",
+      "accessConfigs": [
+        {
+          "name": "External NAT",
+          "type": "ONE_TO_ONE_NAT",
+          "natIP": "34.35.16.30",
+          "kind": "compute#accessConfig",
+          "networkTier": "PREMIUM"
+        }
+      ],
+      "subnetwork": "projects/theowafclass65chuckkeyes/regions/africa-south1/subnetworks/johannesburg",
+      "networkIP": "10.10.50.3",
+      "fingerprint": "IiAq4odh2Zs=",
+      "kind": "compute#networkInterface"
+    }
+  ],
+  "reservationAffinity": {
+    "consumeReservationType": "ANY_RESERVATION"
+  },
+  "resourceStatus": {
+    "scheduling": {}
+  },
+  "satisfiesPzi": true,
+  "scheduling": {
+    "onHostMaintenance": "MIGRATE",
+    "provisioningModel": "STANDARD",
+    "automaticRestart": true,
+    "preemptible": false
+  },
+  "selfLink": "projects/theowafclass65chuckkeyes/zones/africa-south1-a/instances/new-africa-windows",
+  "serviceAccounts": [
+    {
+      "email": "979751036073-compute@developer.gserviceaccount.com",
+      "scopes": [
+        "https://www.googleapis.com/auth/devstorage.read_only",
+        "https://www.googleapis.com/auth/logging.write",
+        "https://www.googleapis.com/auth/monitoring.write",
+        "https://www.googleapis.com/auth/service.management.readonly",
+        "https://www.googleapis.com/auth/servicecontrol",
+        "https://www.googleapis.com/auth/trace.append"
+      ]
+    }
+  ],
+  "shieldedInstanceConfig": {
+    "enableSecureBoot": false,
+    "enableVtpm": true,
+    "enableIntegrityMonitoring": true
+  },
+  "shieldedInstanceIntegrityPolicy": {
+    "updateAutoLearnPolicy": true
+  },
+  "shieldedVmConfig": {
+    "enableSecureBoot": false,
+    "enableVtpm": true,
+    "enableIntegrityMonitoring": true
+  },
+  "shieldedVmIntegrityPolicy": {
+    "updateAutoLearnPolicy": true
+  },
+  "startRestricted": false,
+  "status": "RUNNING",
+  "tags": {
+    "items": [
+      "http-server",
+      "https-server",
+      "lb-health-check"
+    ],
+    "fingerprint": "XTN9W2dqKHc="
+  },
+  "zone": "projects/theowafclass65chuckkeyes/zones/africa-south1-a"
+}
+

@@ -1,5 +1,5 @@
 # https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_router_nat
-resource "google_compute_router_nat" "nat" {
+resource "google_compute_router_nat" "nat-maryland" {
   name   = "nat"
   router = google_compute_router.usrouter.name
   region = "us-east1"
